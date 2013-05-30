@@ -3,6 +3,7 @@ use strict;
 use warnings;
 use Acme::SuddenlyDeath;
 
+# 文字化けバグあり
 sub setup {
     my ($class, $sys) = @_;
     $sys->register_hook( 'before_send_post', sub {
@@ -40,15 +41,21 @@ Yancha::Plugin::SuddenlyDeath - SuddenlyDeath for Yancha plugin.
 
 =head1 DESCRIPTION
 
-I< #DEATH >とタグをつけると
+I< #DEATH >とタグをつけて発言すると
 
 ＿人人人人人人＿
 ＞ 突然の死 ＜
 ￣^Y^Y^Y^Y^Y^￣
 
+=head1 BUG
+
+マルチバイト文字を投稿すると文字化け
+
 =head1 AUTHOR
 
-mackee_w
+ichigotake
+
+mackee_w (発案)
 
 =head1 SEE ALSO
 
