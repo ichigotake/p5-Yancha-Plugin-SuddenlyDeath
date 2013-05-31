@@ -1,6 +1,7 @@
 package Yancha::Plugin::SuddenlyDeath;
 use strict;
 use warnings;
+use utf8;
 use Acme::SuddenlyDeath;
 
 # 文字化けバグあり
