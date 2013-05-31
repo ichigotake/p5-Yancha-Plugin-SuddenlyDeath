@@ -16,7 +16,7 @@ sub setup {
           delete $post->{tags}->[$i];
           utf8::encode($post->{text}) if utf8::is_utf8($post->{text});
           $post->{text} =~ s/#DEATH//g;
-          $post->{text} = ">>\n" . suddenly_death($post->{text}) . "\n<<";
+          $post->{text} = suddenly_death($post->{text});
           #$post->{text} .= "\n#PUBLIC";
         }   
       }   
