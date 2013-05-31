@@ -25,3 +25,27 @@ sub setup {
     } );
 
 }
+
+
+1;
+__DATA__
+
+=head1 NAME
+
+Yancha::Plugin::SuddenlyDeath - SuddenlyDeath for Yancha plugin.
+
+=head1 SYNOPSIS
+
+    # add config.pl
+    'plugins' => [
+        [ 'Yancha::Plugin::SuddenlyDeath' ],
+    ...
+
+
+=head2 AUTHOR
+
+mackee_w
+
+=head1 SEE ALSO
+
+https://github.com/uzulla/yancha
