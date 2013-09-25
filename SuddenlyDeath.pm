@@ -12,14 +12,13 @@ sub setup {
     
       my $cnt = scalar @{$post->{tags}};
       for (my$i=0; $i<$cnt; ++$i) {
-        if ($post->{tags}->[$i] eq 'DEATH') {
+        if ($post->{tags}->[$i] =~ m/^DEATH$/i) {
           delete $post->{tags}->[$i];
           $post->{text} = Encode::encode_utf8($post->{text});
-          $post->{text} =~ s/#DEATH//g;
+          $post->{text} =~ s/#DEATH//ig;
           $post->{text} = decode_utf8(suddenly_death($post->{text}));
-        }   
-      }   
-      $post->{tags} = ['PUBLIC'] unless @{$post->{tags}};
+        }
+      } 
       #use Data::Dumper; warn Dumper $post;
 
     } );
