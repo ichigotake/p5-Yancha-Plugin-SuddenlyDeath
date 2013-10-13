@@ -43,6 +43,7 @@
       },
       "runtime" : {
          "requires" : {
+            "Acme::SuddenlyDeath" : "0",
             "perl" : "5.008001"
          }
       },
@@ -55,15 +56,16 @@
    "release_status" : "unstable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://gist.github.com/5676911/issues"
+         "web" : "https://github.com/ichigotake/p5-Yancha-Plugin-SuddenlyDeath/issues"
       },
-      "homepage" : "https://gist.github.com/5676911",
+      "homepage" : "https://github.com/ichigotake/p5-Yancha-Plugin-SuddenlyDeath",
       "repository" : {
-         "url" : "https://gist.github.com/5676911.git",
-         "web" : "https://gist.github.com/5676911"
+         "type" : "git",
+         "url" : "git://github.com/ichigotake/p5-Yancha-Plugin-SuddenlyDeath.git",
+         "web" : "https://github.com/ichigotake/p5-Yancha-Plugin-SuddenlyDeath"
       }
    },
-   "version" : "0.10",
+   "version" : "0.11",
    "x_contributors" : [
       "ichigoake <k.wisiiy@gmail.com>"
    ]
