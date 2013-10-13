@@ -5,7 +5,7 @@ use utf8;
 use Encode;
 use Acme::SuddenlyDeath;
 
-our $VERSION = '0.11';
+our $VERSION = '0.12';
 
 sub setup {
     my ($class, $sys) = @_; 

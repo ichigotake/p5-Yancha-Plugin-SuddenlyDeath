@@ -2,6 +2,11 @@ Revision history for Perl extension p5-Yancha-Plugin-SuddenlyDeath
 
 {{$NEXT}}
 
+0.12 2013-10-13T17:16:56Z
+
+    - add Build.PL
+    - fix markdown preview
+
 0.11 2013-10-13T17:01:22Z
 
     - original version
