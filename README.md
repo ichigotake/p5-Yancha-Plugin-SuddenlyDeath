@@ -13,9 +13,9 @@ Yancha::Plugin::SuddenlyDeath - SuddenlyDeath for Yancha plugin.
 
 yanchaで \#DEATH タグをつけて発言をすると…
 
-＿人人人人人＿
-＞ 突然の死 ＜
-￣^Y^Y^Y^Y^￣
+    ＿人人人人人＿
+    ＞ 突然の死 ＜
+    ￣^Y^Y^Y^Y^￣
 
 ## AUTHOR
 
