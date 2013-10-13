@@ -5,6 +5,8 @@ use utf8;
 use Encode;
 use Acme::SuddenlyDeath;
 
+our $VERSION = '0.10';
+
 sub setup {
     my ($class, $sys) = @_; 
     $sys->register_hook( 'before_send_post', sub {
@@ -43,7 +45,7 @@ Yancha::Plugin::SuddenlyDeath - SuddenlyDeath for Yancha plugin.
 
 =head2 AUTHOR
 
-mackee_w
+ichigotake
 
 =head1 SEE ALSO
 
